@@ -1,0 +1,18 @@
+[29-Aug-2022 22:41:15 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x89 0x50 in /home/frmi6014/mikaelfreva.com/mike/asset/fonctions/functions.php on line 6
+[29-Aug-2022 22:41:15 UTC] PHP Warning:  imagecreatefromjpeg(): &quot;/tmp/phpC7UEz0&quot; is not a valid JPEG file in /home/frmi6014/mikaelfreva.com/mike/asset/fonctions/functions.php on line 6
+[29-Aug-2022 22:41:15 UTC] PHP Fatal error:  Uncaught TypeError: imagecopyresampled(): Argument #2 ($src_image) must be of type GdImage, bool given in /home/frmi6014/mikaelfreva.com/mike/asset/fonctions/functions.php:21
+Stack trace:
+#0 /home/frmi6014/mikaelfreva.com/mike/asset/fonctions/functions.php(21): imagecopyresampled()
+#1 /home/frmi6014/mikaelfreva.com/mike/admin/conf_ajout.php(39): resizejpg()
+#2 {main}
+  thrown in /home/frmi6014/mikaelfreva.com/mike/asset/fonctions/functions.php on line 21
+[29-Aug-2022 22:41:15 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x89 0x50 in /home/frmi6014/mikaelfreva.com/mike/asset/fonctions/functions.php on line 6
+[29-Aug-2022 22:41:15 UTC] PHP Warning:  imagecreatefromjpeg(): &quot;/tmp/phpdfdMri&quot; is not a valid JPEG file in /home/frmi6014/mikaelfreva.com/mike/asset/fonctions/functions.php on line 6
+[29-Aug-2022 22:41:15 UTC] PHP Fatal error:  Uncaught TypeError: imagecopyresampled(): Argument #2 ($src_image) must be of type GdImage, bool given in /home/frmi6014/mikaelfreva.com/mike/asset/fonctions/functions.php:21
+Stack trace:
+#0 /home/frmi6014/mikaelfreva.com/mike/asset/fonctions/functions.php(21): imagecopyresampled()
+#1 /home/frmi6014/mikaelfreva.com/mike/admin/conf_ajout.php(39): resizejpg()
+#2 {main}
+  thrown in /home/frmi6014/mikaelfreva.com/mike/asset/fonctions/functions.php on line 21
+[30-Aug-2022 00:21:50 UTC] PHP Warning:  PDO::query(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'frmi6014_bdd_mike.t_categorie' doesn't exist in /home/frmi6014/mikaelfreva.com/mike/admin/categorie_modifier.php on line 13
+[30-Aug-2022 00:21:56 UTC] PHP Warning:  PDO::query(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'frmi6014_bdd_mike.t_categorie' doesn't exist in /home/frmi6014/mikaelfreva.com/mike/admin/categorie_modifier.php on line 13
